@@ -1,4 +1,6 @@
 # for memoization table/ matrix/ array, always check those variables in the function that are changing
+
+
 # since in this question our size-> n and our capacity of the knapsack are changing hence we make a table for those.
 
 

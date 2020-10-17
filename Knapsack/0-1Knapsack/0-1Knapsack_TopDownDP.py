@@ -25,6 +25,4 @@ for i in range(n+1):
     for j in range(cap+1):
         if i==0 or j==0:  # according to the base case we fill first row and column with 0
             dp[i][j]=0
-        else:
-            dp[i][j]=-1
 print(knapsack(wt,val,cap,n,dp))
