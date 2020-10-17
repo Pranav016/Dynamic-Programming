@@ -6,7 +6,7 @@ def knapsack(wt,val,cap,n,dp):
     for i in range(1,n+1):
         for j in range(1,cap+1):
             if wt[i-1]<=j:
-                includeThisWt=val[i-1]+dp[i-1][j-wt[i-1]]
+                includeThisWt=val[i-1]+dp[i-1][j-wt[i-1]]  # in this case the function call is replaced by the dp matrix
                 notIncludeThisWt=dp[i-1][j]
                 dp[i][j]=max(includeThisWt,notIncludeThisWt)
             else:
