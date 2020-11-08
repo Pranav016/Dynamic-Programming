@@ -5,6 +5,7 @@
 # For example- arr= 10,20,30
 # here matrix sizes can be `10 X 20` or `20 X 30`
 
+# calculating cost/ steps of multiplication example- for two matrices of size `10 X 20` , `20 X 30` the cost for multiplication would be `10*20*30`
 
 # we have to minimize the cost(number of steps/multiplications) to find the product of two or more matrices of the these sizes.
 
